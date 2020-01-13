@@ -7,15 +7,15 @@
   "iconsAndLayerTextsBrightness": 255,
   "alphanumericSegmentsBrightness": 255,
   "keyBacklightBrightness": 255,
-  "mouseMoveInitialSpeed": 5,
+  "mouseMoveInitialSpeed": 4,
   "mouseMoveAcceleration": 255,
   "mouseMoveDeceleratedSpeed": 8,
-  "mouseMoveBaseSpeed": 64,
-  "mouseMoveAcceleratedSpeed": 108,
-  "mouseScrollInitialSpeed": 15,
-  "mouseScrollAcceleration": 20,
+  "mouseMoveBaseSpeed": 192,
+  "mouseMoveAcceleratedSpeed": 228,
+  "mouseScrollInitialSpeed": 17,
+  "mouseScrollAcceleration": 85,
   "mouseScrollDeceleratedSpeed": 20,
-  "mouseScrollBaseSpeed": 20,
+  "mouseScrollBaseSpeed": 61,
   "mouseScrollAcceleratedSpeed": 50,
   "moduleConfigurations": [],
   "keymaps": [
@@ -4207,7 +4207,7 @@
                 {
                   "keyActionType": "switchLayer",
                   "layer": "mouse",
-                  "switchLayerMode": "holdAndDoubleTapToggle"
+                  "switchLayerMode": "toggle"
                 },
                 {
                   "keyActionType": "keystroke",
@@ -4561,9 +4561,9 @@
                 },
                 {
                   "keyActionType": "keystroke",
-                  "type": "media",
-                  "scancode": 184,
-                  "modifierMask": 3
+                  "type": "basic",
+                  "scancode": 20,
+                  "modifierMask": 9
                 },
                 null,
                 {
@@ -4650,7 +4650,7 @@
                 null,
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 4
+                  "macroIndex": 6
                 },
                 null,
                 null,
@@ -4724,12 +4724,12 @@
                 null,
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 3
+                  "macroIndex": 5
                 },
                 null,
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 0
+                  "macroIndex": 2
                 },
                 null,
                 null,
@@ -4743,8 +4743,14 @@
                 },
                 null,
                 null,
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 0
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 1
+                },
                 null,
                 null,
                 {
@@ -4804,7 +4810,7 @@
                 null,
                 {
                   "keyActionType": "mouse",
-                  "mouseAction": "scrollDown"
+                  "mouseAction": "scrollUp"
                 },
                 {
                   "keyActionType": "mouse",
@@ -4823,7 +4829,7 @@
                 null,
                 {
                   "keyActionType": "mouse",
-                  "mouseAction": "scrollUp"
+                  "mouseAction": "scrollDown"
                 },
                 null,
                 null,
@@ -4876,16 +4882,13 @@
                 null,
                 null,
                 null,
-                {
-                  "keyActionType": "playMacro",
-                  "macroIndex": 1
-                },
+                null,
                 null,
                 null,
                 {
                   "keyActionType": "switchLayer",
                   "layer": "mouse",
-                  "switchLayerMode": "holdAndDoubleTapToggle"
+                  "switchLayerMode": "toggle"
                 },
                 null,
                 {
@@ -5200,7 +5203,7 @@
                 {
                   "keyActionType": "switchLayer",
                   "layer": "mouse",
-                  "switchLayerMode": "holdAndDoubleTapToggle"
+                  "switchLayerMode": "toggle"
                 },
                 {
                   "keyActionType": "keystroke",
@@ -5564,9 +5567,9 @@
                 },
                 {
                   "keyActionType": "keystroke",
-                  "type": "media",
-                  "scancode": 184,
-                  "modifierMask": 3
+                  "type": "basic",
+                  "scancode": 20,
+                  "modifierMask": 9
                 },
                 null,
                 {
@@ -5874,7 +5877,7 @@
                 {
                   "keyActionType": "switchLayer",
                   "layer": "mouse",
-                  "switchLayerMode": "holdAndDoubleTapToggle"
+                  "switchLayerMode": "toggle"
                 },
                 null,
                 {
@@ -6896,6 +6899,142 @@
     }
   ],
   "macros": [
+    {
+      "isLooped": false,
+      "isPrivate": true,
+      "name": "1-login-demo-mac",
+      "macroActions": [
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 4,
+          "modifierMask": 8
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 42
+        },
+        {
+          "macroActionType": "text",
+          "text": "demomartini@mailinator.com"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 4,
+          "modifierMask": 8
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 42
+        },
+        {
+          "macroActionType": "text",
+          "text": "qweqweasd1!"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "Demo"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 40
+        }
+      ]
+    },
+    {
+      "isLooped": false,
+      "isPrivate": true,
+      "name": "1-login-devcore-mac",
+      "macroActions": [
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 4,
+          "modifierMask": 8
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 42
+        },
+        {
+          "macroActionType": "text",
+          "text": "home_martini_dsw010994@dsxtr.com"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 4,
+          "modifierMask": 8
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 42
+        },
+        {
+          "macroActionType": "text",
+          "text": "home_martini_dsw010994"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "O"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "https://dsw010994.docusignhq.com/"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 40
+        }
+      ]
+    },
     {
       "isLooped": false,
       "isPrivate": true,
