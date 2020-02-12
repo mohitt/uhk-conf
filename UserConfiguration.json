@@ -782,8 +782,14 @@
                 },
                 null,
                 null,
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 2
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 5
+                },
                 null,
                 null,
                 null,
@@ -1769,8 +1775,14 @@
                   "keymapAbbreviation": "COM"
                 },
                 null,
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 2
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 5
+                },
                 null,
                 null,
                 null,
@@ -2751,8 +2763,14 @@
                   "keymapAbbreviation": "COM"
                 },
                 null,
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 2
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 5
+                },
                 null,
                 null,
                 null,
@@ -3735,8 +3753,14 @@
                   "keymapAbbreviation": "COM"
                 },
                 null,
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 2
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 5
+                },
                 null,
                 null,
                 null,
@@ -4291,9 +4315,8 @@
                   "switchLayerMode": "holdAndDoubleTapToggle"
                 },
                 {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "scancode": 44
+                  "keyActionType": "switchKeymap",
+                  "keymapAbbreviation": "QWR"
                 },
                 {
                   "keyActionType": "switchLayer",
@@ -4650,10 +4673,13 @@
                 null,
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 6
+                  "macroIndex": 8
                 },
                 null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 7
+                },
                 {
                   "keyActionType": "keystroke",
                   "type": "media",
@@ -4717,20 +4743,23 @@
                   "keymapAbbreviation": "COM"
                 },
                 null,
-                null,
-                null,
-                null,
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 2
+                },
                 {
                   "keyActionType": "playMacro",
                   "macroIndex": 5
                 },
                 null,
+                null,
+                null,
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 2
+                  "macroIndex": 6
                 },
+                null,
+                null,
                 null,
                 null,
                 null,
@@ -5287,9 +5316,8 @@
                   "switchLayerMode": "holdAndDoubleTapToggle"
                 },
                 {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "scancode": 44
+                  "keyActionType": "switchKeymap",
+                  "keymapAbbreviation": "QWM"
                 },
                 {
                   "keyActionType": "switchLayer",
@@ -5718,8 +5746,14 @@
                   "keymapAbbreviation": "COM"
                 },
                 null,
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 2
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 5
+                },
                 null,
                 null,
                 null,
@@ -5739,7 +5773,10 @@
                 null,
                 null,
                 null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 1
+                },
                 null,
                 null,
                 {
@@ -6695,8 +6732,14 @@
                   "keymapAbbreviation": "COM"
                 },
                 null,
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 2
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 5
+                },
                 null,
                 null,
                 null,
@@ -6982,7 +7025,7 @@
         },
         {
           "macroActionType": "text",
-          "text": "home_martini_dsw010994@dsxtr.com"
+          "text": "create_user@dsxtr.com"
         },
         {
           "macroActionType": "key",
@@ -7005,7 +7048,7 @@
         },
         {
           "macroActionType": "text",
-          "text": "home_martini_dsw010994"
+          "text": "create_user"
         },
         {
           "macroActionType": "key",
@@ -7025,7 +7068,7 @@
         },
         {
           "macroActionType": "text",
-          "text": "https://dsw010994.docusignhq.com/"
+          "text": "https://dsw010994.docusignhq.com"
         },
         {
           "macroActionType": "key",
@@ -7038,35 +7081,11 @@
     {
       "isLooped": false,
       "isPrivate": true,
-      "name": "GetGoogleAuthCode",
+      "name": "docusignhq.com",
       "macroActions": [
         {
-          "macroActionType": "key",
-          "action": "tap",
-          "type": "basic",
-          "scancode": 44,
-          "modifierMask": 8
-        },
-        {
           "macroActionType": "text",
-          "text": "ds-otp"
-        },
-        {
-          "macroActionType": "key",
-          "action": "tap",
-          "type": "basic",
-          "scancode": 40
-        },
-        {
-          "macroActionType": "delay",
-          "delay": 5000
-        },
-        {
-          "macroActionType": "key",
-          "action": "tap",
-          "type": "basic",
-          "scancode": 20,
-          "modifierMask": 8
+          "text": ".docusignhq.com"
         }
       ]
     },
@@ -7108,6 +7127,17 @@
     {
       "isLooped": false,
       "isPrivate": true,
+      "name": "hqtest.tst",
+      "macroActions": [
+        {
+          "macroActionType": "text",
+          "text": ".hqtest.tst"
+        }
+      ]
+    },
+    {
+      "isLooped": false,
+      "isPrivate": true,
       "name": "Open iTerm",
       "macroActions": [
         {
@@ -7120,6 +7150,38 @@
         {
           "macroActionType": "text",
           "text": "iTerm"
+        },
+        {
+          "macroActionType": "delay",
+          "delay": 1000
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 40
+        }
+      ]
+    },
+    {
+      "isLooped": false,
+      "isPrivate": true,
+      "name": "Open YT Music Mac",
+      "macroActions": [
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 44,
+          "modifierMask": 8
+        },
+        {
+          "macroActionType": "text",
+          "text": "YT Music"
+        },
+        {
+          "macroActionType": "delay",
+          "delay": 1000
         },
         {
           "macroActionType": "key",
