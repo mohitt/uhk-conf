@@ -7,16 +7,16 @@
   "iconsAndLayerTextsBrightness": 255,
   "alphanumericSegmentsBrightness": 255,
   "keyBacklightBrightness": 255,
-  "mouseMoveInitialSpeed": 4,
-  "mouseMoveAcceleration": 255,
-  "mouseMoveDeceleratedSpeed": 8,
-  "mouseMoveBaseSpeed": 192,
-  "mouseMoveAcceleratedSpeed": 228,
-  "mouseScrollInitialSpeed": 17,
-  "mouseScrollAcceleration": 85,
-  "mouseScrollDeceleratedSpeed": 20,
-  "mouseScrollBaseSpeed": 61,
-  "mouseScrollAcceleratedSpeed": 50,
+  "mouseMoveInitialSpeed": 8,
+  "mouseMoveAcceleration": 180,
+  "mouseMoveDeceleratedSpeed": 80,
+  "mouseMoveBaseSpeed": 112,
+  "mouseMoveAcceleratedSpeed": 160,
+  "mouseScrollInitialSpeed": 10,
+  "mouseScrollAcceleration": 10,
+  "mouseScrollDeceleratedSpeed": 7,
+  "mouseScrollBaseSpeed": 10,
+  "mouseScrollAcceleratedSpeed": 12,
   "moduleConfigurations": [],
   "keymaps": [
     {
@@ -790,8 +790,14 @@
                   "keyActionType": "playMacro",
                   "macroIndex": 5
                 },
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 15
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 14
+                },
                 null,
                 null,
                 null,
@@ -1792,8 +1798,14 @@
                   "keyActionType": "playMacro",
                   "macroIndex": 5
                 },
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 15
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 14
+                },
                 null,
                 null,
                 null,
@@ -2789,8 +2801,14 @@
                   "keyActionType": "playMacro",
                   "macroIndex": 5
                 },
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 15
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 14
+                },
                 null,
                 null,
                 null,
@@ -3788,8 +3806,14 @@
                   "keyActionType": "playMacro",
                   "macroIndex": 5
                 },
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 15
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 14
+                },
                 null,
                 null,
                 null,
@@ -4705,7 +4729,7 @@
                 null,
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 9
+                  "macroIndex": 16
                 },
                 null,
                 null,
@@ -4780,12 +4804,18 @@
                   "keyActionType": "playMacro",
                   "macroIndex": 5
                 },
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 15
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 14
+                },
                 null,
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 8
+                  "macroIndex": 12
                 },
                 null,
                 null,
@@ -4793,7 +4823,10 @@
                 null,
                 null,
                 null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 10
+                },
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
@@ -4811,9 +4844,12 @@
                 },
                 {
                   "keyActionType": "playMacro",
+                  "macroIndex": 8
+                },
+                {
+                  "keyActionType": "playMacro",
                   "macroIndex": 6
                 },
-                null,
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
@@ -5792,6 +5828,14 @@
                   "keyActionType": "playMacro",
                   "macroIndex": 5
                 },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 15
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 14
+                },
                 null,
                 null,
                 null,
@@ -5800,9 +5844,10 @@
                 null,
                 null,
                 null,
-                null,
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 11
+                },
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
@@ -5817,9 +5862,12 @@
                 },
                 {
                   "keyActionType": "playMacro",
+                  "macroIndex": 9
+                },
+                {
+                  "keyActionType": "playMacro",
                   "macroIndex": 7
                 },
-                null,
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
@@ -6791,8 +6839,14 @@
                   "keyActionType": "playMacro",
                   "macroIndex": 5
                 },
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 15
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 14
+                },
                 null,
                 null,
                 null,
@@ -7026,13 +7080,17 @@
         },
         {
           "macroActionType": "text",
-          "text": "demomartini@mailinator.com"
+          "text": "paymentsallenv@dsxtr.com"
         },
         {
           "macroActionType": "key",
           "action": "tap",
           "type": "basic",
           "scancode": 43
+        },
+        {
+          "macroActionType": "delay",
+          "delay": 100
         },
         {
           "macroActionType": "key",
@@ -7049,7 +7107,7 @@
         },
         {
           "macroActionType": "text",
-          "text": "qweqweasd1!"
+          "text": "test1111"
         },
         {
           "macroActionType": "key",
@@ -7058,8 +7116,16 @@
           "scancode": 43
         },
         {
+          "macroActionType": "delay",
+          "delay": 100
+        },
+        {
           "macroActionType": "text",
           "text": "Demo"
+        },
+        {
+          "macroActionType": "delay",
+          "delay": 100
         },
         {
           "macroActionType": "key",
@@ -7206,7 +7272,161 @@
     {
       "isLooped": false,
       "isPrivate": true,
-      "name": "login-dev-home",
+      "name": "login-24166-payments-mac",
+      "macroActions": [
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 4,
+          "modifierMask": 8
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 42
+        },
+        {
+          "macroActionType": "text",
+          "text": "paymentsallenv@dsxtr.com"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 4,
+          "modifierMask": 8
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 42
+        },
+        {
+          "macroActionType": "text",
+          "text": "test1111"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "O"
+        },
+        {
+          "macroActionType": "delay",
+          "delay": 100
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "https://dsw024166.docusignhq.com"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 40
+        }
+      ]
+    },
+    {
+      "isLooped": false,
+      "isPrivate": true,
+      "name": "login-24166-payments-win",
+      "macroActions": [
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 4,
+          "modifierMask": 1
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 42
+        },
+        {
+          "macroActionType": "text",
+          "text": "paymentsallenv@dsxtr.com"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 4,
+          "modifierMask": 1
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 42
+        },
+        {
+          "macroActionType": "text",
+          "text": "test1111"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "O"
+        },
+        {
+          "macroActionType": "delay",
+          "delay": 100
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "https://dsw024166.docusignhq.com"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 40
+        }
+      ]
+    },
+    {
+      "isLooped": false,
+      "isPrivate": true,
+      "name": "login-dev-home-mac",
       "macroActions": [
         {
           "macroActionType": "key",
@@ -7360,6 +7580,148 @@
     {
       "isLooped": false,
       "isPrivate": true,
+      "name": "login-noenv-payments-mac",
+      "macroActions": [
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 4,
+          "modifierMask": 8
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 42
+        },
+        {
+          "macroActionType": "text",
+          "text": "paymentsallenv@dsxtr.com"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 4,
+          "modifierMask": 8
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 42
+        },
+        {
+          "macroActionType": "text",
+          "text": "test1111"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "O"
+        },
+        {
+          "macroActionType": "delay",
+          "delay": 100
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "https://"
+        }
+      ]
+    },
+    {
+      "isLooped": false,
+      "isPrivate": true,
+      "name": "login-noenv-payments-win",
+      "macroActions": [
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 4,
+          "modifierMask": 1
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 42
+        },
+        {
+          "macroActionType": "text",
+          "text": "paymentsallenv@dsxtr.com"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 4,
+          "modifierMask": 1
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 42
+        },
+        {
+          "macroActionType": "text",
+          "text": "test1111"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "O"
+        },
+        {
+          "macroActionType": "delay",
+          "delay": 100
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "https://"
+        }
+      ]
+    },
+    {
+      "isLooped": false,
+      "isPrivate": true,
       "name": "Open iTerm",
       "macroActions": [
         {
@@ -7374,10 +7736,239 @@
           "text": "iTerm"
         },
         {
+          "macroActionType": "delay",
+          "delay": 500
+        },
+        {
           "macroActionType": "key",
           "action": "tap",
           "type": "basic",
           "scancode": 40
+        }
+      ]
+    },
+    {
+      "isLooped": false,
+      "isPrivate": true,
+      "name": "populate-payment-1",
+      "macroActions": [
+        {
+          "macroActionType": "text",
+          "text": "John"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "Doe"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "4111 1111 1111 1111"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "12"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "2021"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "123"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 44
+        }
+      ]
+    },
+    {
+      "isLooped": false,
+      "isPrivate": true,
+      "name": "populate-payment-2",
+      "macroActions": [
+        {
+          "macroActionType": "text",
+          "text": "221 Main St"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "San Francisco"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "United States"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "CA"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "94121"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 44
+        }
+      ]
+    },
+    {
+      "isLooped": false,
+      "isPrivate": true,
+      "name": "populate-payment-stripe",
+      "macroActions": [
+        {
+          "macroActionType": "text",
+          "text": "4000 0000 0000 3220"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "12"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "2021"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "123"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 44
         }
       ]
     },
