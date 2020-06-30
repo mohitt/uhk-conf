@@ -4,8 +4,8 @@
   "userConfigPatchVersion": 0,
   "deviceName": "My UHK",
   "doubleTapSwitchLayerTimeout": 250,
-  "iconsAndLayerTextsBrightness": 255,
-  "alphanumericSegmentsBrightness": 255,
+  "iconsAndLayerTextsBrightness": 32,
+  "alphanumericSegmentsBrightness": 31,
   "keyBacklightBrightness": 255,
   "mouseMoveInitialSpeed": 8,
   "mouseMoveAcceleration": 180,
@@ -689,7 +689,10 @@
                   "scancode": 233
                 },
                 null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 19
+                },
                 null,
                 null,
                 {
@@ -792,19 +795,31 @@
                 },
                 {
                   "keyActionType": "playMacro",
+                  "macroIndex": 16
+                },
+                {
+                  "keyActionType": "playMacro",
                   "macroIndex": 15
+                },
+                null,
+                null,
+                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 13
                 },
                 {
                   "keyActionType": "playMacro",
                   "macroIndex": 14
                 },
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 15
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 16
+                },
                 null,
                 null,
                 {
@@ -1697,7 +1712,10 @@
                   "scancode": 233
                 },
                 null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 19
+                },
                 null,
                 null,
                 {
@@ -1800,19 +1818,31 @@
                 },
                 {
                   "keyActionType": "playMacro",
+                  "macroIndex": 16
+                },
+                {
+                  "keyActionType": "playMacro",
                   "macroIndex": 15
+                },
+                null,
+                null,
+                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 13
                 },
                 {
                   "keyActionType": "playMacro",
                   "macroIndex": 14
                 },
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 15
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 16
+                },
                 null,
                 null,
                 {
@@ -2700,7 +2730,10 @@
                   "scancode": 233
                 },
                 null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 19
+                },
                 null,
                 null,
                 {
@@ -2803,19 +2836,31 @@
                 },
                 {
                   "keyActionType": "playMacro",
+                  "macroIndex": 16
+                },
+                {
+                  "keyActionType": "playMacro",
                   "macroIndex": 15
+                },
+                null,
+                null,
+                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 13
                 },
                 {
                   "keyActionType": "playMacro",
                   "macroIndex": 14
                 },
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 15
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 16
+                },
                 null,
                 null,
                 {
@@ -3705,7 +3750,10 @@
                   "scancode": 233
                 },
                 null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 19
+                },
                 null,
                 null,
                 {
@@ -3808,19 +3856,31 @@
                 },
                 {
                   "keyActionType": "playMacro",
+                  "macroIndex": 16
+                },
+                {
+                  "keyActionType": "playMacro",
                   "macroIndex": 15
+                },
+                null,
+                null,
+                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 13
                 },
                 {
                   "keyActionType": "playMacro",
                   "macroIndex": 14
                 },
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 15
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 16
+                },
                 null,
                 null,
                 {
@@ -4700,7 +4760,10 @@
                   "scancode": 233
                 },
                 null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 19
+                },
                 null,
                 null,
                 {
@@ -4729,7 +4792,7 @@
                 null,
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 16
+                  "macroIndex": 17
                 },
                 null,
                 null,
@@ -4804,24 +4867,30 @@
                   "keyActionType": "playMacro",
                   "macroIndex": 5
                 },
-                {
-                  "keyActionType": "playMacro",
-                  "macroIndex": 15
-                },
-                {
-                  "keyActionType": "playMacro",
-                  "macroIndex": 14
-                },
+                null,
+                null,
                 null,
                 {
                   "keyActionType": "playMacro",
                   "macroIndex": 12
                 },
                 null,
-                null,
-                null,
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 13
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 14
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 15
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 16
+                },
                 null,
                 {
                   "keyActionType": "playMacro",
@@ -5727,7 +5796,10 @@
                   "scancode": 233
                 },
                 null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 19
+                },
                 null,
                 null,
                 {
@@ -5830,19 +5902,31 @@
                 },
                 {
                   "keyActionType": "playMacro",
+                  "macroIndex": 16
+                },
+                {
+                  "keyActionType": "playMacro",
                   "macroIndex": 15
+                },
+                null,
+                null,
+                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 13
                 },
                 {
                   "keyActionType": "playMacro",
                   "macroIndex": 14
                 },
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 15
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 16
+                },
                 null,
                 {
                   "keyActionType": "playMacro",
@@ -6739,7 +6823,10 @@
                   "scancode": 233
                 },
                 null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 19
+                },
                 null,
                 null,
                 {
@@ -6841,19 +6928,31 @@
                 },
                 {
                   "keyActionType": "playMacro",
+                  "macroIndex": 16
+                },
+                {
+                  "keyActionType": "playMacro",
                   "macroIndex": 15
+                },
+                null,
+                null,
+                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 13
                 },
                 {
                   "keyActionType": "playMacro",
                   "macroIndex": 14
                 },
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 15
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 16
+                },
                 null,
                 null,
                 {
@@ -7904,6 +8003,77 @@
     {
       "isLooped": false,
       "isPrivate": true,
+      "name": "populate-payment-regular",
+      "macroActions": [
+        {
+          "macroActionType": "text",
+          "text": "4111 1111 1111 1111"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "12"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "2021"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "123"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 44
+        }
+      ]
+    },
+    {
+      "isLooped": false,
+      "isPrivate": true,
       "name": "populate-payment-stripe",
       "macroActions": [
         {
@@ -7997,6 +8167,17 @@
         {
           "macroActionType": "text",
           "text": "Silent Bob\n711-2880 Nulla St.\nMankato Mississippi 96522\n(257) 563-7401"
+        }
+      ]
+    },
+    {
+      "isLooped": false,
+      "isPrivate": true,
+      "name": "typepassword",
+      "macroActions": [
+        {
+          "macroActionType": "text",
+          "text": "Mentor@088815"
         }
       ]
     }
