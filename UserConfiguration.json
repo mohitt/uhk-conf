@@ -4,8 +4,8 @@
   "userConfigPatchVersion": 0,
   "deviceName": "My UHK",
   "doubleTapSwitchLayerTimeout": 250,
-  "iconsAndLayerTextsBrightness": 32,
-  "alphanumericSegmentsBrightness": 31,
+  "iconsAndLayerTextsBrightness": 16,
+  "alphanumericSegmentsBrightness": 18,
   "keyBacklightBrightness": 255,
   "mouseMoveInitialSpeed": 8,
   "mouseMoveAcceleration": 180,
@@ -691,7 +691,7 @@
                 null,
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 19
+                  "macroIndex": 21
                 },
                 null,
                 null,
@@ -795,23 +795,15 @@
                 },
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 16
+                  "macroIndex": 18
                 },
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 15
+                  "macroIndex": 17
                 },
                 null,
                 null,
                 null,
-                {
-                  "keyActionType": "playMacro",
-                  "macroIndex": 13
-                },
-                {
-                  "keyActionType": "playMacro",
-                  "macroIndex": 14
-                },
                 {
                   "keyActionType": "playMacro",
                   "macroIndex": 15
@@ -819,6 +811,14 @@
                 {
                   "keyActionType": "playMacro",
                   "macroIndex": 16
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 17
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 18
                 },
                 null,
                 null,
@@ -828,8 +828,14 @@
                   "modifierMask": 2
                 },
                 null,
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 13
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 14
+                },
                 null,
                 null,
                 null,
@@ -1714,7 +1720,7 @@
                 null,
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 19
+                  "macroIndex": 21
                 },
                 null,
                 null,
@@ -1818,23 +1824,15 @@
                 },
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 16
+                  "macroIndex": 18
                 },
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 15
+                  "macroIndex": 17
                 },
                 null,
                 null,
                 null,
-                {
-                  "keyActionType": "playMacro",
-                  "macroIndex": 13
-                },
-                {
-                  "keyActionType": "playMacro",
-                  "macroIndex": 14
-                },
                 {
                   "keyActionType": "playMacro",
                   "macroIndex": 15
@@ -1842,6 +1840,14 @@
                 {
                   "keyActionType": "playMacro",
                   "macroIndex": 16
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 17
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 18
                 },
                 null,
                 null,
@@ -1851,8 +1857,14 @@
                   "modifierMask": 2
                 },
                 null,
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 13
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 14
+                },
                 null,
                 null,
                 null,
@@ -2732,7 +2744,7 @@
                 null,
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 19
+                  "macroIndex": 21
                 },
                 null,
                 null,
@@ -2836,23 +2848,15 @@
                 },
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 16
+                  "macroIndex": 18
                 },
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 15
+                  "macroIndex": 17
                 },
                 null,
                 null,
                 null,
-                {
-                  "keyActionType": "playMacro",
-                  "macroIndex": 13
-                },
-                {
-                  "keyActionType": "playMacro",
-                  "macroIndex": 14
-                },
                 {
                   "keyActionType": "playMacro",
                   "macroIndex": 15
@@ -2860,6 +2864,14 @@
                 {
                   "keyActionType": "playMacro",
                   "macroIndex": 16
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 17
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 18
                 },
                 null,
                 null,
@@ -2869,8 +2881,14 @@
                   "modifierMask": 2
                 },
                 null,
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 13
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 14
+                },
                 null,
                 null,
                 null,
@@ -3752,7 +3770,7 @@
                 null,
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 19
+                  "macroIndex": 21
                 },
                 null,
                 null,
@@ -3856,23 +3874,15 @@
                 },
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 16
+                  "macroIndex": 18
                 },
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 15
+                  "macroIndex": 17
                 },
                 null,
                 null,
                 null,
-                {
-                  "keyActionType": "playMacro",
-                  "macroIndex": 13
-                },
-                {
-                  "keyActionType": "playMacro",
-                  "macroIndex": 14
-                },
                 {
                   "keyActionType": "playMacro",
                   "macroIndex": 15
@@ -3880,6 +3890,14 @@
                 {
                   "keyActionType": "playMacro",
                   "macroIndex": 16
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 17
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 18
                 },
                 null,
                 null,
@@ -3889,8 +3907,14 @@
                   "modifierMask": 2
                 },
                 null,
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 13
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 14
+                },
                 null,
                 null,
                 null,
@@ -4762,7 +4786,7 @@
                 null,
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 19
+                  "macroIndex": 21
                 },
                 null,
                 null,
@@ -4792,7 +4816,7 @@
                 null,
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 17
+                  "macroIndex": 19
                 },
                 null,
                 null,
@@ -4877,19 +4901,19 @@
                 null,
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 13
-                },
-                {
-                  "keyActionType": "playMacro",
-                  "macroIndex": 14
-                },
-                {
-                  "keyActionType": "playMacro",
                   "macroIndex": 15
                 },
                 {
                   "keyActionType": "playMacro",
                   "macroIndex": 16
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 17
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 18
                 },
                 null,
                 {
@@ -4902,10 +4926,13 @@
                   "modifierMask": 2
                 },
                 null,
-                null,
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 0
+                  "macroIndex": 13
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 14
                 },
                 {
                   "keyActionType": "playMacro",
@@ -5798,7 +5825,7 @@
                 null,
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 19
+                  "macroIndex": 21
                 },
                 null,
                 null,
@@ -5900,25 +5927,11 @@
                   "keyActionType": "playMacro",
                   "macroIndex": 5
                 },
-                {
-                  "keyActionType": "playMacro",
-                  "macroIndex": 16
-                },
-                {
-                  "keyActionType": "playMacro",
-                  "macroIndex": 15
-                },
                 null,
                 null,
                 null,
-                {
-                  "keyActionType": "playMacro",
-                  "macroIndex": 13
-                },
-                {
-                  "keyActionType": "playMacro",
-                  "macroIndex": 14
-                },
+                null,
+                null,
                 {
                   "keyActionType": "playMacro",
                   "macroIndex": 15
@@ -5926,6 +5939,14 @@
                 {
                   "keyActionType": "playMacro",
                   "macroIndex": 16
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 17
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 18
                 },
                 null,
                 {
@@ -5938,8 +5959,14 @@
                   "modifierMask": 2
                 },
                 null,
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 13
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 14
+                },
                 {
                   "keyActionType": "playMacro",
                   "macroIndex": 1
@@ -6825,7 +6852,7 @@
                 null,
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 19
+                  "macroIndex": 21
                 },
                 null,
                 null,
@@ -6928,23 +6955,15 @@
                 },
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 16
+                  "macroIndex": 18
                 },
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 15
+                  "macroIndex": 17
                 },
                 null,
                 null,
                 null,
-                {
-                  "keyActionType": "playMacro",
-                  "macroIndex": 13
-                },
-                {
-                  "keyActionType": "playMacro",
-                  "macroIndex": 14
-                },
                 {
                   "keyActionType": "playMacro",
                   "macroIndex": 15
@@ -6952,6 +6971,14 @@
                 {
                   "keyActionType": "playMacro",
                   "macroIndex": 16
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 17
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 18
                 },
                 null,
                 null,
@@ -6961,8 +6988,14 @@
                   "modifierMask": 2
                 },
                 null,
-                null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 13
+                },
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 14
+                },
                 null,
                 null,
                 null,
@@ -7849,6 +7882,176 @@
     {
       "isLooped": false,
       "isPrivate": true,
+      "name": "populate-cybersource-sca-1",
+      "macroActions": [
+        {
+          "macroActionType": "text",
+          "text": "John"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "Doe"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "4111 1111 1111 1111"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "12"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "2021"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "123"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 44
+        }
+      ]
+    },
+    {
+      "isLooped": false,
+      "isPrivate": true,
+      "name": "populate-cybersource-sca-2",
+      "macroActions": [
+        {
+          "macroActionType": "text",
+          "text": "221 Main St"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "601-540-7253"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "San Francisco"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "United States"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "CA"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "text",
+          "text": "94121"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 43
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 44
+        }
+      ]
+    },
+    {
+      "isLooped": false,
+      "isPrivate": true,
       "name": "populate-payment-1",
       "macroActions": [
         {
@@ -8177,7 +8380,7 @@
       "macroActions": [
         {
           "macroActionType": "text",
-          "text": "Mentor@088815"
+          "text": "Mentor@0888151"
         }
       ]
     }
