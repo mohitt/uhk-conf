@@ -7906,13 +7906,7 @@
         },
         {
           "macroActionType": "text",
-          "text": "4111 1111 1111 1111"
-        },
-        {
-          "macroActionType": "key",
-          "action": "tap",
-          "type": "basic",
-          "scancode": 43
+          "text": "5200000000000007"
         },
         {
           "macroActionType": "key",
