@@ -8375,6 +8375,29 @@
         {
           "macroActionType": "text",
           "text": "Mentor@0888151"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 40
+        }
+      ]
+    },
+    {
+      "isLooped": false,
+      "isPrivate": true,
+      "name": "typepassword-linux",
+      "macroActions": [
+        {
+          "macroActionType": "text",
+          "text": "guruji123"
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 40
         }
       ]
     }
